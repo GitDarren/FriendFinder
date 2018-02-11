@@ -22,9 +22,11 @@
 </head>
 
 <body>
-    <h2>Survey Questions</h2>
+    <h2>Movie Buddy Questions</h2>
 
-    <h3><strong>About You</strong></h3>
+    <h3>
+        <strong>About You</strong>
+    </h3>
 
     <h4>Name (Required)</h4>
     <input type="text" id="nameField" class="formInput" required>
@@ -33,65 +35,186 @@
     <input type="text" id="photoField" class="formInput" required>
     <hr>
 
-    <!--Questions Section -->
-    <h3><strong>Question 1</strong></h3>
-    <h4>questionText</h4>
+    <div class="survey">
 
-        <div class="dropdown-menu">
-            <a class="dropdown-item">1 (Strongly Agree)</a>
-        </div>
+        <form action="">
 
+            <!--Questions Section -->
+            <h3>
+                <strong>Question 1</strong>
+            </h3>
+            <h4>You view any movie involving Will Ferrell is an opening night affair.</h4>
+            <p>Select an Option</p>
 
+            <select class="chosen-select" id="q1" data-placeholder="Select an Option">
+                <option value="1"> 1(Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
 
+            <hr>
 
+            <h3>
+                <strong>Question 2</strong>
+            </h3>
+            <h4>There are two types of movies, horror and everything else.</h4>
+            <p>Select an Option</p>
 
+            <select class="chosen-select" id="q1" data-placeholder="Select an Option">
+                <option value="1"> 1(Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
 
+            <hr>
 
+            <h3>
+                <strong>Question 3</strong>
+            </h3>
+            <h4>Quentin Tarantino only gets better with age and experience.</h4>
+            <p>Select an Option</p>
 
+            <select class="chosen-select" id="q1" data-placeholder="Select an Option">
+                <option value="1"> 1(Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
 
+            <hr>
 
-    
-        <select data-placeholder class="chosen-select" id="q1" style="display: none;">
-            <option value></option>
-            <option value="1">(Strongly Disagree)</option>
-            <option value="2"></option>
-            <option value="3"></option>
-            <option value="4"></option>
-            <option value="5">(Strongly Agree)</option>
-        </select>
-        <div class="chosen-container chosen-container-single" style="width: 155px"; id="q1_chosen">
-                <a class="chosen-single chosen-default">
-                    <span>Select an Option</span>
-                    <div>
-                        <b></b>
-                    </div>
-                </a>
-            <div class="chosen-drop">
-                <div class="chosen-search">
-                    <input type="text" autocomplete="off">
-                </div>
-                <ul class="chosen-results">
-                    <li class="active-results" data-option-array-index="1" style>1 (Strongly Disagree)</li>
-                    <li class="active-results" data-option-array-index="2" style>2</li>
-                    <li class="active-results" data-option-array-index="3" style>3</li>
-                    <li class="active-results" data-option-array-index="4" style>4</li>
-                    <li class="active-results" data-option-array-index="5" style>5 (Strongly Agree)</li>
-                </ul>
-            </div>
+            <h3>
+                <strong>Question 4</strong>
+            </h3>
+            <h4>You are not a true film connoisseur unless you love French new wave films.</h4>
+            <p>Select an Option</p>
+
+            <select class="chosen-select" id="q1" data-placeholder="Select an Option">
+                <option value="1"> 1(Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <hr>
+
+            <h3>
+                <strong>Question 5</strong>
+            </h3>
+            <h4>All the movies I love are honored by the MTV movie awards!</h4>
+            <p>Select an Option</p>
+
+            <select class="chosen-select" id="q1" data-placeholder="Select an Option">
+                <option value="1"> 1(Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <hr>
+
+            <h3>
+                <strong>Question 6</strong>
+            </h3>
+            <h4>I'm Gonna Git You Sucka should be held up the pathenon of comedic films.</h4>
+            <p>Select an Option</p>
+
+            <select class="chosen-select" id="q1" data-placeholder="Select an Option">
+                <option value="1"> 1(Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <hr>
+
+            <h3>
+                <strong>Question 7</strong>
+            </h3>
+            <h4>I think Baby Boss should win an Oscar!</h4>
+            <p>Select an Option</p>
+
+            <select class="chosen-select" id="q1" data-placeholder="Select an Option">
+                <option value="1"> 1(Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <hr>
+
+            <h3>
+                <strong>Question 8</strong>
+            </h3>
+            <h4>Jaws was commentary on the Vietman war and the perils of American Exceptionalism.</h4>
+            <p>Select an Option</p>
+
+            <select class="chosen-select" id="q1" data-placeholder="Select an Option">
+                <option value="1"> 1(Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <hr>
+
+            <h3>
+                <strong>Vin Diesel is a serious actor. </strong>
+            </h3>
+            <h4>questionText</h4>
+            <p>Select an Option</p>
+
+            <select class="chosen-select" id="q1" data-placeholder="Select an Option">
+                <option value="1"> 1(Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <hr>
+
+            <h3>
+                <strong>Blazing Saddles is the greatest comedy of all time.</strong>
+            </h3>
+            <h4>questionText</h4>
+            <p>Select an Option</p>
+
+            <select class="chosen-select" id="q1" data-placeholder="Select an Option">
+                <option value="1"> 1(Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <hr>
 
 
     </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <button id="submitform">Submit</button>
+
+    <button type="submitBtn" class="submitform">Submit</button>
+    </form>
+    </div>
+
+
+
+
+
+
+
+
+
 
 
 
