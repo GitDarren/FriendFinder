@@ -1,7 +1,7 @@
 var path = require('path');
 
 
-var movieBuddy = require('../data/buddy.js');
+var buddyArray = require('../data/buddy.js');
 
 
 module.exports = function (app) {
