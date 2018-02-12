@@ -1,7 +1,7 @@
 
 
 
-var buddyList = [
+var buddyArray = [
     {
         "name": "Harry Knowles",
         "photo": "http://variety.com/2017/film/news/harry-knowles-takes-leave-from-aint-it-cool-news-amid-sexual-assault-accusations-1202574130",
@@ -53,4 +53,6 @@ var buddyList = [
         ]
     },
 
-]
+];
+
+module.exports = buddyArray;

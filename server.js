@@ -1,3 +1,8 @@
+
+
+//Getting the connections to work for the Movie Finder App
+
+
 var bodyParser = require('body-parser')
 var express = require('express')
 var path = require('path');
@@ -13,8 +18,8 @@ app.use(bodyParser.json())
 
 app.use(express.static(path.join(__dirname, 'app/public')));
 
-require('./app/routing/apiroutes.js')(app);
-require('./app/routing/htmlroutes.js')(app);
+require('./app/routing/apiRoutes.js')(app);
+require('./app/routing/htmlRoutes.js')(app);
 
 
 
