@@ -219,18 +219,43 @@
     </div>
 
     <div class="container">
+        
         <!-- Modal -->
-        <!--build Modal here that pops up when the user clicks submit-->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="Modal" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+
+                <!--Modal contents -->
+                <div class="modal-content">
+                    <div class="modal-header">
+
+                        <h5 class="modal-title" id="ModalLabel">Here's your Movie Buddy!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+                        <h2 id="nameMatch"></h2>
+                        <img id="matchPhoto" src="https://cdn.browshot.com/static/images/not-found.png" alt="Image Not found">
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
     </div>
-    
+
     <hr>
 
     <footer class="footer">
         <div class="container">
             <p>
-               <a href="../api/buddy">API Movie Buddy List</a> | <a href="https://github.com/GitDarren/FriendFinder">Github Repo</a>
+                <a href="../api/buddy">API Movie Buddy List</a> |
+                <a href="https://github.com/GitDarren/FriendFinder">Github Repo</a>
             </p>
         </div>
     </footer>
