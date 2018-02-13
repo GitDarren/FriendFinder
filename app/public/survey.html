@@ -296,8 +296,13 @@
                 alert(`Thank you, ${newBuddy.name}. Your survey is completed`);
                 console.log(newBuddy);
                 var currentURL = window.location.origin;
-                $.post(currentURL+"/api/buddy", newBuddy, function()    {
+                $.post(currentURL + "/api/buddy", newBuddy, function(data)    {
                     console.log(newBuddy);
+                    $("#nameMatch").text(data.name);
+                    $('#matchPhoto').attr("src", data.photo);
+                   
+                    //Show the modal with the best match
+                    $('#ModalLabel').modal('toggle');
                 });//end post
             } else  {
                 console.log("survey NOT Completed");
