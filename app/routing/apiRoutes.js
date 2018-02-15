@@ -13,7 +13,7 @@ module.exports = function (app) {
 
     app.post('/api/buddy', function (req, res) {
         console.log(buddyArray);
-        console.log(`This shit is working in apiRoutes.js`)
+        console.log("ApiRoutes.js is working")
         var diff = [];
         var total = 0;
         var lowestArray = [];

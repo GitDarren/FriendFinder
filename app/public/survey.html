@@ -253,7 +253,7 @@
 
 
     <script type="text/javascript">
-        console.log("this shit is working!");
+        console.log("javascript is working!");
 
         $("#submit").on("click", function (event) {
             // event.preventDefault();
@@ -296,7 +296,7 @@
                     ]
                 }
                 alert(`Thank you, ${newBuddy.name}. Your survey is completed`);
-                console.log(`This is my ${newBuddy}`);
+                console.log("This is our newest movie buddy: ", newBuddy);
                 var currentURL = window.location.origin;
                 jQuery.ajaxSettings.traditional = true;
                 $.post(currentURL + "/api/buddy", newBuddy, function (data) {
