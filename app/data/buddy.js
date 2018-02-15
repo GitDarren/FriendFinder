@@ -38,7 +38,7 @@ var buddyArray = [
 
     {
         "name": "Miranda Sings",
-        "photo": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.thewrap.com%2Fwp-content%2Fuploads%2F2016%2F01%2FMiranda-Sings.jpg&imgrefurl=https%3A%2F%2Fwww.thewrap.com%2Fyoutube-star-miranda-sings-lands-netflix-comedy-haters-back-off%2F&docid=ona4LD22aRRP-M&tbnid=eNIaX0l2sembEM%3A&vet=10ahUKEwivgrCuw57ZAhUMW60KHdzVBGcQMwjeASgHMAc..i&w=618&h=412&safe=off&bih=1050&biw=1680&q=miranda%20sings&ved=0ahUKEwivgrCuw57ZAhUMW60KHdzVBGcQMwjeASgHMAc&iact=mrc&uact=8",
+        "photo": "https://vignette3.wikia.nocookie.net/youtube/images/4/44/Miranda_Sings.jpg/revision/latest?cb=20160118070354",
         "scores": [
             1,
             2,

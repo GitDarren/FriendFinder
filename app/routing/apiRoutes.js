@@ -12,6 +12,8 @@ module.exports = function (app) {
 
 
     app.post('/api/buddy', function (req, res) {
+        console.log(buddyArray);
+        console.log(`This shit is working in apiRoutes.js`)
         var diff = [];
         var total = 0;
         var lowestArray = [];
@@ -19,12 +21,14 @@ module.exports = function (app) {
         var userScores = req.body.scores;
 
         //loops through each entry in the array
-        for (var i = 0; i <= buddyArray.length; i++) {
+        for (var i = 0; i < buddyArray.length; i++) {
 
             //Create variable to determine 
             diff = buddyArray[i].scores.map(function (item, index) {
                 return Math.abs(item - userScores[index]);
             })
+
+            console.log(buddyArray[i].scores);
 
             total = diff.reduce(function (prev, current) {
                 return prev + current;
@@ -41,10 +45,7 @@ module.exports = function (app) {
 
         res.json(buddyArray[best])
 
-
         buddyArray.push(req.body)
-
-
 
     });
 
