@@ -4,7 +4,7 @@
 var buddyArray = [
     {
         "name": "Harry Knowles",
-        "photo": "http://variety.com/2017/film/news/harry-knowles-takes-leave-from-aint-it-cool-news-amid-sexual-assault-accusations-1202574130",
+        "photo": "https://pbs.twimg.com/profile_images/824373885139304448/WHTK6Gqe_400x400.jpg",
         "scores": [
             3,
             3,
@@ -21,7 +21,7 @@ var buddyArray = [
 
     {
         "name": "Sally Talksalot",
-        "photo": "http://www.vulture.com/2013/06/david-edelstein-on-texting-and-talking-at-movies.html",
+        "photo": "http://c8.alamy.com/comp/BJKAYF/girl-talking-on-cell-phone-at-movie-theater-with-annoyed-boy-BJKAYF.jpg",
         "scores": [
             5,
             5,
@@ -38,7 +38,7 @@ var buddyArray = [
 
     {
         "name": "Miranda Sings",
-        "photo": "https://vignette3.wikia.nocookie.net/youtube/images/4/44/Miranda_Sings.jpg/revision/latest?cb=20160118070354",
+        "photo": "https://pbs.twimg.com/profile_images/378800000257616892/3e12c01dd9affce0db66ffd95d3d5bca_400x400.jpeg",
         "scores": [
             1,
             1,
